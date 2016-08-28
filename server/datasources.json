@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDS": {
+    "name": "mysqlDS",
+    "connector": "mysql",
+    "host": "mysql",
+    "database": "dia",
+    "username": "root",
+    "password": "root"
+  }
+}
