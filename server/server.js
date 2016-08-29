@@ -41,7 +41,7 @@ boot(app, __dirname, function(err) {
 
 app
   .dataSources['mysqlDS']
-  .autoupdate(['Case', 'Project'], function(err) {
+  .autoupdate(['Admin', 'Case', 'Project'], function(err) {
     if (err) {
       console.log(err);
     } else {
